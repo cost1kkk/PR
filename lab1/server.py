@@ -17,13 +17,13 @@ def ball():
 def easy():
     if request.method == 'GET':
         return {
-            'message': 'It was easy'
+            'message': 'It was easy to get your data'
         }
     elif request.method == 'POST':
         payload = request.json
         print(payload)
         return {
-            'message': 'No it wasnt'
+            'message': 'Thanks'
         }
 
 # Create a URL route in our application for "/bread"
