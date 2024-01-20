@@ -5,7 +5,7 @@ def main():
     url = 'http://localhost:5000'
 
     # GET request
-    response = requests.get(url + '/yaass')
+    response = requests.get(url + '/ball')
     print(response.json())
 
     # POST request
